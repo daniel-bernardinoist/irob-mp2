@@ -1,0 +1,11 @@
+Terminal 1
+
+source /opt/ros/jazzy/setup.bash
+source ~/ros2_ws/install/setup.bash
+ros2 launch turtlebot_datasets task2a_simulation.launch.py
+
+Terminal 2
+
+source /opt/ros/jazzy/setup.bash
+source ~/ros2_ws/install/setup.bash
+ros2 run turtlebot_datasets task2a_waypoints

@@ -1,0 +1,7 @@
+/build/
+/install/
+/log/
+**/__pycache__/
+*.py[cod]
+/src/datasets/data/ir_labData.tar.xz
+/src/datasets/data/**/*.db3
